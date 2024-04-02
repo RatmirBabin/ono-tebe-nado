@@ -49,12 +49,7 @@
   line-height: 24px;
 }
 
-.tel__link {
-  text-decoration: none;
-  border-bottom: 1px solid #000000;
-}
-
-.mail__link {
+.address__link {
   text-decoration: none;
   border-bottom: 1px solid #000000;
 }
@@ -134,7 +129,6 @@
   column-gap: 79px;
   margin-top: 135px;
   font-size: 22px;
-  line-height: 28px;
   position: relative;
   z-index: 1;
 }
@@ -262,8 +256,6 @@
   height: 240px;
   border-radius: 50%;
   margin-left: 47px;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .about__logo-image {
@@ -287,12 +279,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* font-weight: 400; */
   font-size: 20px;
   line-height: 24px;
   row-gap: 25px;
-  /* max-width: 693px; */
-  /* letter-spacing: 4%; */
 }
 
 .footer {
